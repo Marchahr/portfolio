@@ -1,0 +1,272 @@
+
+.wrap {
+  border: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  border: 10px;
+ min-height: 300px;
+}
+
+
+
+
+
+
+a { font-family: 'Muli';}
+.websitemenu { size:75;}
+.websitemenu a:link {color: Black; text-decoration:none;}
+.websitemenu a:visited {color:gray;}
+.websitemenu a:hover {color:tan;}
+
+
+
+.body{
+  width: 652px;
+  height: 100px;
+}
+
+
+/* Header */
+.header{
+  position: absolute;
+  width: 1077px;
+  height: 150px;
+  left: 36px;
+  top: 2%;
+}
+
+h1{
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  margin-top: 50px;
+}
+
+.subheader {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+
+h2{
+
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 38px;
+  
+  text-transform: uppercase;
+
+  letter-spacing: .2em;
+  
+
+  position: absolute;
+  transform-origin: top left;
+  transform: rotate(-90deg) translate(-100%, -80px);
+  
+
+  border: 1px;
+}
+
+
+.row {
+
+  border: 5px;
+  display: flex;
+
+}
+
+.left, .right {
+
+  border: 5px;
+  flex: 1;
+  
+}
+.left {
+
+  margin-right: 10px;
+}
+.right {
+
+  margin-left: 10px;
+}
+
+
+.logo{
+  position: absolute;
+  width: 62px;
+  height: 93px;
+  left: 10%;
+  top: 75px;
+
+  background: url(MC-LOGO-02.png);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+/* MC-Menu-01 1 */
+.menu{
+  position: absolute;
+  width: 45px;
+  height: 90px;
+  left: 90%;
+  top: 75px;
+
+}
+
+/* bfa projects | parsons */
+
+h3{
+
+font-family: Muli;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 31px;
+text-align: center;
+letter-spacing: 0.05em;
+}
+
+.map{
+width: 712px;
+height: 464px;
+}
+
+h4{
+font-family: Muli;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 25px;
+text-align: left;
+letter-spacing: 0.05em;
+}
+
+
+.quoteStyle{
+font-family: Muli;
+font-style: normal;
+font-weight: 600;
+font-size: 125px;
+text-align: center;
+letter-spacing: 0.5em;
+text-transform: uppercase;
+}
+
+.callOut{
+font-family: Muli;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+
+}
+
+.img2C{
+width: 316px;
+height: 362px;
+}
+
+.bigImg{
+width: 794px;
+height: 554px;
+}
+
+.teamH{
+font-family: Muli;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 38px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
+ .teamB{
+font-family: Muli;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 31px;
+text-align: center;
+letter-spacing: 0.05em;
+ }
+
+ .footerBack{
+position: absolute;
+
+width: 166px;
+left: 72px;
+
+font-family: Muli;
+font-style: italic;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 0.05em;
+}
+
+
+.footerNext{
+position: absolute;
+
+width: 166px;
+left: 494px;
+
+font-family: Muli;
+font-style: italic;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 0.05em;
+}
+
+.footerProject{
+  position: absolute;
+width: 166px;
+left: 916px;
+
+font-family: Muli;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 33px;
+letter-spacing: 0.05em;
+}
+
+
+.footerFirstLetter{
+  position: absolute;
+width: 166px;
+height: 62px;
+left: 916px;
+top: 4948px;
+
+font-family: Muli;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 33px;
+letter-spacing: 0.05em;
+}
