@@ -6,22 +6,19 @@
 }
 
 section {
-  border: 10px;
+ border: 20px;
  min-height: 300px;
 }
 
-
-
-
-
+.padding{
+  min-height: 105px;
+}
 
 a { font-family: 'Muli';}
 .websitemenu { size:75;}
 .websitemenu a:link {color: Black; text-decoration:none;}
 .websitemenu a:visited {color:gray;}
 .websitemenu a:hover {color:tan;}
-
-
 
 .body{
   width: 652px;
@@ -42,7 +39,7 @@ h1{
   font-family: Muli;
   font-style: normal;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 75px;
   text-align: center;
   letter-spacing: 0.05em;
@@ -68,7 +65,7 @@ h2{
   font-family: Muli;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 38px;
   
   text-transform: uppercase;
@@ -211,6 +208,9 @@ text-align: center;
 letter-spacing: 0.05em;
  }
 
+
+
+
  .footerBack{
 position: absolute;
 
@@ -228,10 +228,8 @@ letter-spacing: 0.05em;
 
 
 .footerNext{
-position: absolute;
+position: center;
 
-width: 166px;
-left: 494px;
 
 font-family: Muli;
 font-style: italic;
@@ -243,9 +241,7 @@ letter-spacing: 0.05em;
 }
 
 .footerProject{
-  position: absolute;
-width: 166px;
-left: 916px;
+text-align: right;
 
 font-family: Muli;
 font-style: normal;
@@ -257,16 +253,21 @@ letter-spacing: 0.05em;
 
 
 .footerFirstLetter{
-  position: absolute;
-width: 166px;
-height: 62px;
-left: 916px;
-top: 4948px;
+padding: 50px; 
+text-align: center;
 
 font-family: Muli;
 font-style: normal;
 font-weight: 600;
-font-size: 26px;
+font-size: 126px;
 line-height: 33px;
 letter-spacing: 0.05em;
+}
+
+.footerNextButton{
+position: right;
+height: 123px;
+
+background: url(MC-Arrow-03.png);
+transform: rotate(90deg);
 }
