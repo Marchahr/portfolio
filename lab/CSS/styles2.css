@@ -81,29 +81,32 @@ h2{
   border: 1px;
 }
 
+@media (min-width: 800px){
+  .row {
 
-.row {
+    border: 5px;
+    display: flex;
 
-  border: 5px;
-  display: flex;
+  }
 
+  .left, .right {
+  border: 10px;
+  padding: 30px ;
+/*    align-self: flex-center;
+*/
+  /*  
+    flex: 1;*/
+   display: flex; 
+  }
+  .left {
+    margin-right: 15px;
+  /*  max-width: 400px;
+  */}
+  .right {
+  /*margin-left: 15px;*/
+  vertical-align: middle;
+  }
 }
-
-.left, .right {
-
-  border: 5px;
-  flex: 1;
-  
-}
-.left {
-
-  margin-right: 10px;
-}
-.right {
-
-  margin-left: 10px;
-}
-
 
 .logo{
   position: absolute;
@@ -265,9 +268,10 @@ letter-spacing: 0.05em;
 }
 
 .footerNextButton{
-position: right;
-height: 123px;
-
-background: url(MC-Arrow-03.png);
+/*position: right;
+*/height: 123px;
+position: absolute;
+alignment-baseline: right;
 transform: rotate(90deg);
 }
+
