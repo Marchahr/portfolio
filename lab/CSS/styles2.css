@@ -10,6 +10,14 @@ section {
  min-height: 300px;
 }
 
+.topPadding{
+  min-height: 75px;
+}
+
+.stPadding{
+  min-height: 5px;
+}
+
 .padding{
   min-height: 105px;
 }
@@ -61,7 +69,6 @@ h1{
 
 
 h2{
-
   font-family: Muli;
   font-style: normal;
   font-weight: bold;
@@ -78,8 +85,8 @@ h2{
   transform: rotate(-90deg) translate(-100%, -80px);
   
 
-  border: 1px;
-}
+/*  border: 1px;
+*/}
 
 @media (min-width: 800px){
   .row {
@@ -110,10 +117,11 @@ h2{
 
 .logo{
   position: absolute;
-  width: 62px;
-  height: 93px;
-  left: 10%;
-  top: 75px;
+  width: 42px;
+  height: 73px;
+  left: 5%;
+  top: 5%;
+  transform: scale(0.7);
 
   background: url(MC-LOGO-02.png);
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -123,10 +131,10 @@ h2{
 /* MC-Menu-01 1 */
 .menu{
   position: absolute;
-  width: 45px;
-  height: 90px;
-  left: 90%;
-  top: 75px;
+  width: 25px;
+  height: 70px;
+  left: 95%;
+  top: 5%;
 
 }
 
@@ -243,10 +251,23 @@ text-align: center;
 letter-spacing: 0.05em;
 }
 
+.footerNext2{
+  text-align: right;
+
+font-family: Muli;
+font-style: italic;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/*text-align: right;
+*/letter-spacing: 0.05em;
+}
+
 .footerProject{
 text-align: right;
 
 font-family: Muli;
+
 font-style: normal;
 font-weight: 600;
 font-size: 26px;
@@ -275,3 +296,24 @@ alignment-baseline: right;
 transform: rotate(90deg);
 }
 
+
+.twoD{
+width: 776px;
+height: 1172px;
+left: 199px;
+top: 5225px;
+}
+
+.threeD{
+  width: 809px;
+height: 1428px;
+position: center;
+}
+
+.wideImgHeader{
+position:absolute;
+width: 1052px;
+height: 492px;
+left: 0px;
+
+}
