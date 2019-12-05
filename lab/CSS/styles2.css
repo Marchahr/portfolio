@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family: Muli;
+  src: url(../assets/Muli-Black.ttf);
+}
+
 .wrap {
   border: 10px;
   max-width: 800px;
