@@ -74,7 +74,6 @@ h2{
   font-weight: bold;
   font-size: 25px;
   line-height: 38px;
-  fon
 
   
   text-transform: uppercase;
@@ -118,25 +117,26 @@ h2{
 }
 
 .logo{
-  position: absolute;
+  position: relative;
   width: 42px;
   height: 73px;
-  left: 5%;
+  left: 80%;
   top: 5%;
-  transform: scale(0.7);
+  transform: scale(0.9);
 
-  background: url(MC-LOGO-02.png);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  /*background: url(MC-LOGO-02.png);
+  transform: matrix(-1, 0, 0, 1, 0, 0);*/
 }
 
 
 /* MC-Menu-01 1 */
 .menu{
-  position: absolute;
+  position: relative;
+  display: inline-block;
   width: 25px;
   height: 70px;
-  left: 95%;
-  top: 5%;
+  left: 350%;
+  top: 150%;
 
 }
 
@@ -199,6 +199,10 @@ height: 362px;
 .bigImg{
 width: 794px;
 height: 554px;
+}
+.AppImg{
+width: 50%;
+height: 50%;
 }
 
 .teamH{
@@ -325,7 +329,8 @@ left: 0px;
   display: inline-block;
 }
 
-.dropdown-content {
+
+/*.dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -333,8 +338,39 @@ left: 0px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
+  text-decoration: none;
+  hover
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown-hover 
+
+.dropdown-content {
+  display: block;*/
+
+.dropdown {
+/*  position: relative;
+*/  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
   display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 

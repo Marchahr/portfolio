@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+
+a { font-family: 'Roboto';}
+.websitemenu { size:75;}
+  .websitemenu a:link {color: Black; text-decoration:none;}
+  .websitemenu a:visited {color:gray;}
+  .websitemenu a:hover {color:tan;}
+
+/** {
+  box-sizing: border-box;*/
+
+/*img{
+  size: 50%;
+}*/
+
+body {
+  font-family: 'Roboto'
+  background-image: url("img/taco.jpg");
+  padding-left: 35px;
+  padding-right: 35px;
+
+
+}
+
+h4{
+  color: gray;
+  size:50%;
+}
+
+div {
+  padding-top:
+  padding-right: 800px;
+  padding-bottom:
+  padding-left: 800px;
+}
+
+h1{
+  /*ext-align: center;*/
+  size:100%;
+}
+
+/*body {
+  margin: 0;
+  font-family: Arial;
+}*/
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+iframe{
+  <position: "center">
+}
+
+
+.collapsible {
+  font-family: 'Roboto';
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  font-family: 'Roboto';
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  text-align: left;
+}
+
+
+.menu{
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 70px;
+  left: 350%;
+  top: 150%;
+
+}
+
+.dropdown {
+/*  position: relative;
+*/  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
