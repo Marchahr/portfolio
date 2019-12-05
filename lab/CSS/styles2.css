@@ -81,9 +81,9 @@ h2{
   letter-spacing: .2em;
   
 
-  position: absolute;
+ /* position: absolute;
   transform-origin: top left;
-  transform: rotate(-90deg) translate(-100%, -80px);
+  transform: rotate(-90deg) translate(-100%, -80px);*/
   
 
 /*  border: 1px;
@@ -189,6 +189,10 @@ text-align: center;
 letter-spacing: 0.25em;
 text-transform: uppercase;
 
+}
+
+.video{
+  
 }
 
 .img2C{
