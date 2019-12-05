@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700');
 
 @font-face {
   font-family: Muli;
-  src: url(../Assets/Muli-Regular.ttf);
+  src: url(../Assets/Muli-Black.ttf);
 }
 
 .wrap {
@@ -27,7 +28,7 @@ section {
   min-height: 105px;
 }
 
-a { font-family: Muli;}
+a { font-family: 'Muli';}
 .websitemenu { size:75;}
 .websitemenu a:link {color: Black; text-decoration:none;}
 .websitemenu a:visited {color:gray;}
