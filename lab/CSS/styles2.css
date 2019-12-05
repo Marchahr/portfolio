@@ -117,11 +117,11 @@ h2{
 }
 
 .logo{
-  position: relative;
+  /*position: relative;*/
   width: 42px;
   height: 73px;
-  left: 80%;
-  top: 5%;
+ /* left: 80%;
+  top: 5%;*/
   transform: scale(0.9);
 
   /*background: url(MC-LOGO-02.png);
