@@ -27,7 +27,7 @@ section {
   min-height: 105px;
 }
 
-a { font-family: 'Muli';}
+a { font-family: Muli;}
 .websitemenu { size:75;}
 .websitemenu a:link {color: Black; text-decoration:none;}
 .websitemenu a:visited {color:gray;}
